@@ -106,9 +106,9 @@ analytics:
 author:
   name             : "Kieran oh"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : ""
+  location         : "Korea"
+  email            : "jhoh0317@g.skku.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
