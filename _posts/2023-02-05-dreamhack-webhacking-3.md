@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Mitigation: Same oOrigin Policy"
+title:  "Mitigation: Same Origin Policy"
 categories: DreamHack
 tag: [DreamHack, WebHacking, SOP]
 toc: true
