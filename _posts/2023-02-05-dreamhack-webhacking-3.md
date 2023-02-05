@@ -33,6 +33,7 @@ http://smae-origin.com/
 ```
 
 라는 오리진과 아래 URL을 비교하면
+
 |URL|결과|이유|
 |---|---|---|
 |https://same-origin.com/frame.html| Same Origin| Path만 다름|
