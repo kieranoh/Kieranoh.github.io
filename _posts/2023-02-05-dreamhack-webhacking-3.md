@@ -29,7 +29,7 @@ author_profile: false
 브라우저가 가져온 정보의 출처인 오리진 (Origin)을 구별할때는 *프로토콜 (Protocol, Scheme)* , *포트(Port)*, *호스트(Host)* 로 구별한다. 이러한 구성요소들이 전부다 일치해야 동일한 오리진이라고 한다.
 
 ```
-http://smae-origin.com/
+http://same-origin.com/
 ```
 
 라는 오리진과 아래 URL을 비교하면
