@@ -7,9 +7,9 @@ toc: true
 author_profile: false
 ---
 
-# ClientSide : XSS
+# ClientSide : CSRF
 
-[ClientSide : XSS](https://dreamhack.io/lecture/courses/172)
+[ClientSide : CSRF](https://dreamhack.io/lecture/courses/172)
  
 오늘은 <U>교차 사이트 요청 위조</U> *(Cross Site Request Forgery, CSRF)*에 대해 공부해볼꺼다.
 
