@@ -25,8 +25,8 @@ DBMS는 크게  관계형과 비관계형을 기준으로 분류하며 다양한
 
 |종류|대표적인 DBMS|
 |---|---|
-|Relatoinal <p>(관계형)|MySQL, MariaDB, PostgreSQL, SQLite|
-|Non-Relational <p>(비관계형)|MongoDB, CouchDB, Redis|
+|Relatoinal <p> (관계형)|MySQL, MariaDB, PostgreSQL, SQLite|
+|Non-Relational <p> (비관계형)|MongoDB, CouchDB, Redis|
 
 ### Relational DBMS
 
@@ -46,9 +46,9 @@ SQL은 사용 목적과 행위에 따라 다양한 구조가 존재한다.
 
 |언어|설명|
 |---|---|
-|DDL <p>(Data Definition Language)| 데이터를 정의하기 위한 언어이다. 생성/수정/삭제 등의 행위를 수행한다.|
-|DML <p>(Data Manipulation Language)|데이터를 조작하기 위한 언어이다. 조회/저장/수정/삭제등을 수행한다.|
-|DCL<p>(Data Control Language)|대이터베이스의 접근권한 등의 설정을 하기위한 언어이다.|
+|DDL <p> (Data Definition Language)| 데이터를 정의하기 위한 언어이다. 생성/수정/삭제 등의 행위를 수행한다.|
+|DML <p> (Data Manipulation Language)|데이터를 조작하기 위한 언어이다. 조회/저장/수정/삭제등을 수행한다.|
+|DCL<p> (Data Control Language)|대이터베이스의 접근권한 등의 설정을 하기위한 언어이다.|
 
 RDBMS에 사용하는 기본적인 구조는 데이터베이스 -> 테이블 -> 데이터 구조이다. 데이터를 다루기 위해 데이터베이스와 테이블을 생성해야 하며, DDL을 사용해야 한다.
 
