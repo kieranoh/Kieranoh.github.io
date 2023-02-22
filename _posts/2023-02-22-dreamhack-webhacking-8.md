@@ -204,9 +204,7 @@ Redis는 키 - 값(Key - Value)의 쌍을 가진 데이터를 저장한다. Redi
 
 메모리를 사용해 데이터를 저장하고 접근하기 때문에 읽고 쓰는 작업이 다른 DBMS 보다 빠르다. 다양한 서비스에 임시 데이터를 캐싱하는 용도로 주로 사용한다.
 
-Redis 명령어 공식 문서
-
-https://redis.io/commands
+[Redis 명령어 공식 문서](https://redis.io/commands)
 
 Redis 명령어 사용 예시
 
@@ -268,6 +266,4 @@ $ curl http://{username}:{password}@localhost:5984/users/guest
 {"_id":"guest","_rev":"1-22a458e50cf189b17d50eeb295231896","upw":"guest"}
 ```
 
-CouchDB API 공식문서
-
-https://docs.couchdb.org/en/latest/api/index.html
+[CouchDB API 공식문서](https://docs.couchdb.org/en/latest/api/index.html)
