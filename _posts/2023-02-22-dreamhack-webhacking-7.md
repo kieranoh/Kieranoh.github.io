@@ -23,7 +23,7 @@ SQL 은 DBMS에 데이터를 질의하는 언어이다. 웹 서비스에는 이�
 
 아래 코드는 로그인 할 때 애플리케이션이 DBMS에 질의하는 쿼리이다.
 
-```SQL
+```sql
 SELECT * FROM accounts WHERE user_id='dreamhack' and user_pw='password'
 ```
 
@@ -90,7 +90,6 @@ SELECT * FROM user_table WHERE uid = 'adim' and ascii(substr(upw,1,1)) = 114 --'
 Blind SQL Injection 공격은 하나하나 값을 비교해야되기 때문에 비교적 오랜 시간이 걸린다는 단점이 있다. 이를 해결하기 위해 Python 코드로 자동화해 얻을 수 있다.
 
 ```python
-
 import requests
 import string
 
