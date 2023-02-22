@@ -60,39 +60,39 @@ MongoDB의 경우 "$"문자를 통해 연산자를 사용한다.
 Comparsion
 
 
-|Name|Description|
+| Name | Description |
 |---|---|
-|$eq|equal|
-|$in|in|
-|$ne|not equal|
-|$nin|not in|
+| $eq | equal |
+| $in | in |
+| $ne | not equal |
+| $nin | not in |
 
 Logical
 
 
-|Name|Description|
+| Name | Description |
 |---|---|
-|$and|AND|
-|$not|NOT|
-|$nor|NOR|
-|$or|OR|
+| $and | AND|
+| $not | NOT |
+| $nor | NOR |
+| $or | OR |
 
 Element
 
 
-|Name|Description|
+| Name | Description |
 |---|---|
-|$exists|지정된 필드가 있는 문서를 찾는다|
-|$type|지정된 필드가 지정된 유형인 문서를 선택한다|
+| $exists | 지정된 필드가 있는 문서를 찾는다 |
+| $type | 지정된 필드가 지정된 유형인 문서를 선택한다 |
 
 Evaluation
 
 
-|Name|Description|
+| Name | Description |
 |---|---|
-|$expr|쿼리 언어 내에서 집계 식을 사용할 수 있다|
-|$regex|지정된 정규식과 일치하는 문서를 선택한다|
-|$text|지정된 텍스트를 검색한다|
+| $expr | 쿼리 언어 내에서 집계 식을 사용할 수 있다 |
+| $regex | 지정된 정규식과 일치하는 문서를 선택한다 |
+| $text | 지정된 텍스트를 검색한다 |
 
 #### MongoDB 기본 문법
 
