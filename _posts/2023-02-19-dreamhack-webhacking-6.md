@@ -62,7 +62,7 @@ CREATE DATABASE Dreamhack;
 
 테이블 생성
 
-```SQL
+```sql
 USE Dreamhack;
 
 CREATE TABLE Board(
@@ -81,7 +81,7 @@ CREATE TABLE Board(
 
 
 
-```SQL
+```sql
 INSERT INTO
 
     Board(boardTitleboardContent, createDate)
@@ -97,7 +97,7 @@ Values(
 
 Board 테이블을 조회하는 쿼리문
 
-```SQL
+```sql
 SELECT
     boardTitle, boardContent
 FROM
@@ -109,7 +109,7 @@ Where
 ----
 Board 테이블의 컬럼 값을 변경하는 쿼리문
 
-```SQL
+```sql
 UPDATE Board SET boardContent='DreamHack!'
     Where idx=1;
 ```

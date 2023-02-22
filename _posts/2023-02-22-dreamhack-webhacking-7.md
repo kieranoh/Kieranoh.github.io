@@ -32,7 +32,7 @@ SELECT * FROM accounts WHERE user_id='dreamhack' and user_pw='password'
 
 아래 쿼리문은 SQL Injection으로 조작한 쿼리문이다.
 
-```SQL
+```sql
 SELECT * FROM accounts WHERE user_id='admin' 
 ```
 
@@ -43,13 +43,13 @@ SELECT * FROM accounts WHERE user_id='admin'
 ----
 uid 와 upw를 입력받는 모듈이 있고, 코드가 아래와 같을 때
 
-```SQL
+```sql
 Select uid from user_table where uid='' and upw=''
 ```
 
 문자열을 구별하기 위해 ' 문자를 사용하고 있기 때문에 uid 입력값에 admin'을 입력하면 뒤에 문장들은
 
-```SQL
+```sql
 Select uid from user_table where uid='admin'' and upw=''
 ```
 처럼 바뀐다.
@@ -78,7 +78,7 @@ substr('ABCD',2,2)='BC'
 
 공격 코드
 
-```SQL
+```sql
 #  114='r',115='s'
 
 SELECT * FROM user_table WHERE uid = 'adim' and ascii(substr(upw,1,1)) = 114 --' and upw=' '
