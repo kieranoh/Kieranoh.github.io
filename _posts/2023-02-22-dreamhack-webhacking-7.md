@@ -2,7 +2,7 @@
 layout: single
 title:  "ServerSide : SQL Injection"
 categories: DreamHack
-tag: [DreamHack, WebHacking,SQL,SQL_Injection]
+tag: [DreamHack, WebHacking,SQL,Injection]
 toc: true
 author_profile: false
 ---
