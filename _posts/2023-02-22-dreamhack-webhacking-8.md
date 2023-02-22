@@ -31,7 +31,7 @@ MongoDB는 JSON형태인 도큐먼트(Document)를 저장한다.
 MongoDB 특징
 
 
-1. 스키마를 따로 정의하지 않아 각 <U>콜렉션 *(Collection)*</U> 에 대한 정의가 필요 없다.
+1. 스키마를 따로 정의하지 않아 각 <U>콜렉션</U> *(Collection)* 에 대한 정의가 필요 없다.
 2. JSON 형식으로 쿼리를 작성할 수 있다.
 3. _id 필드가 Primary Key 역할을 한다.
 
@@ -48,16 +48,18 @@ WriteResult({"nInserted" : 1})
 
 각 DBMS에서 "status"의 값이 "A"고 "qty"값이 30보다 작은 데이터를 조회하는 쿼리는 다음과 같다
 
-|DBMS|Query|
+| DBMS | Query |
 |---|---|
-|RDBMS| SELECT * FROM inventory WHERE status = "A" and qty <30;|
-|MongoDB|db.inventory.find({ $and ;[ {status: "A"}, {qty : { $ly:30} } ] } )|
+| RDBMS | SELECT * FROM inventory WHERE status = "A" and qty <30; |
+| MongoDB | db.inventory.find({ $and ;[ {status: "A"}, {qty : { $ly:30} } ] } ) |
 
 MongoDB의 경우 "$"문자를 통해 연산자를 사용한다.
 
 #### MongoDB 연산자
 
 Comparsion
+
+
 |Name|Description|
 |---|---|
 |$eq|equal|
@@ -66,6 +68,8 @@ Comparsion
 |$nin|not in|
 
 Logical
+
+
 |Name|Description|
 |---|---|
 |$and|AND|
@@ -74,12 +78,16 @@ Logical
 |$or|OR|
 
 Element
+
+
 |Name|Description|
 |---|---|
 |$exists|지정된 필드가 있는 문서를 찾는다|
 |$type|지정된 필드가 지정된 유형인 문서를 선택한다|
 
 Evaluation
+
+
 |Name|Description|
 |---|---|
 |$expr|쿼리 언어 내에서 집계 식을 사용할 수 있다|
@@ -197,6 +205,7 @@ Redis는 키 - 값(Key - Value)의 쌍을 가진 데이터를 저장한다. Redi
 메모리를 사용해 데이터를 저장하고 접근하기 때문에 읽고 쓰는 작업이 다른 DBMS 보다 빠르다. 다양한 서비스에 임시 데이터를 캐싱하는 용도로 주로 사용한다.
 
 Redis 명령어 공식 문서
+
 https://redis.io/commands
 
 Redis 명령어 사용 예시
@@ -217,7 +226,7 @@ OK
 |명령어|구조|설명|
 |---|---|---|
 |GET|GET key|데이터 조회|
-|MGET|MGET key [ket ...]|여러 데이터를 조회|
+|MGET|MGET key [key ...]|여러 데이터를 조회|
 |SET|SET key value|새로운 데이터를 추가|
 |MSET|MSET key value[key value...]|여러데이터를 추가|
 |DEL|DEL key[key...]|데이터 삭제|
@@ -260,4 +269,5 @@ $ curl http://{username}:{password}@localhost:5984/users/guest
 ```
 
 CouchDB API 공식문서
+
 https://docs.couchdb.org/en/latest/api/index.html
