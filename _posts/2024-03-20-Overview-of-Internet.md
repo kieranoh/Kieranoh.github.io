@@ -17,7 +17,7 @@ difference between LAN & WAN
 
 |LAN|WAN|
 |---|---|
-|Limited in size <p>interconnect host <p>privately|widw sapn <p> <p>connect switch, router, mordem|
+|Limited in size<br>interconnect host<br>privately|widw sapn<br><br>connect switch, router, mordem|
 
 *modem - 정보 전달을 위해 신호를 변조하고 송신하고, 수신측에서 원래 신호로 복구하기 위한 보조장치이다. (디지털 신호 (01001) -> 아날로그 신호(진동))
 
