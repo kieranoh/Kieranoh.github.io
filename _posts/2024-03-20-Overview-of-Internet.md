@@ -14,6 +14,7 @@ LAN( local area network ) 은 근거리 통신망으로 제한된 지역 내에�
 WAN( Wide area network ) 은 광대한 지역을 연결하는 원거리 통신망으로 도시, 지역, 국가 간 거리를 포관하는 넓은 영역들을 연결한다.
 
 difference between LAN & WAN
+
 |LAN|WAN|
 |---|---|
 |Limited in size<p>interconnect host<p>privately|widw sapn<p><p>connect switch, router, mordem|
@@ -37,6 +38,7 @@ Switched WAN
 * conneted by switch
 
 데이터 전송 방식에는 Circuit Switch와 Packet Switch가 있다
+
 |Circuit Switch|Packet Switch|
 |---|---|
 |전용 통신획선을 전송 기간동안 독점적으로 사용| 네트워크 자원을 동적으로 공유|
