@@ -24,18 +24,20 @@ difference between LAN & WAN
 ## WAN
 WAN의 두가지 대표적인 예시에는 Point-to-point WANs, Switched WANs가 있다.
 
-Point-to-point WAN
+### Point-to-point WAN
 
 ![point-to-point](/images/point-to-point_wan.png)
 
 * connet two communicating device (cable or air)
 
 
-Switched WAN
+### Switched WAN
 
 ![switched-wan](/images/switched-wan.png)
 
 * conneted by switch
+
+## 데이터 전송방식
 
 데이터 전송 방식에는 Circuit Switch와 Packet Switch가 있다
 
