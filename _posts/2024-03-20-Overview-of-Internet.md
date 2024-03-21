@@ -39,7 +39,7 @@ WAN의 두가지 대표적인 예시에는 Point-to-point WANs, Switched WANs가
 
 ## 데이터 전송방식
 
-데이터 전송 방식에는 Circuit Switch와 Packet Switch가 있다
+데이터 전송 방식에는 Circuit Switch(CSNs)와 Packet Switch(PSNs)가 있다
 
 |Circuit Switch|Packet Switch|
 |---|---|
